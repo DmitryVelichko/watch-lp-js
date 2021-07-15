@@ -16,3 +16,15 @@
   align-items: center;
   background: linear-gradient(#404040, #151415);
 }
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 400px;
+  height: 320px;
+  background: #fa215e;
+  z-index: 1;
+  transition: 1s;
+}
