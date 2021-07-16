@@ -11,8 +11,16 @@
     <section class="banner">
         <header>
             <a href="#" class="logo">Watch</a>
-            <div class="toggle"></div>
+            <div class="toggle" onclick='toggle();'></div>
         </header>
     </section>
+    <script type='text/javascript'>
+        function toggle() {
+            const toggle = document.querySelector('.toggle');
+            const banner = document.querySelector('.banner');
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

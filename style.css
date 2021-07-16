@@ -29,6 +29,14 @@
   transition: 1s;
 }
 
+.banner.active:before {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #151415;
+}
+
 .banner:after {
   content: "";
   position: absolute;
@@ -71,4 +79,11 @@ header .logo {
   background-position: center;
   background-size: 30px;
   cursor: pointer;
+}
+
+.toggle.active {
+  background: url(images/close.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
 }
