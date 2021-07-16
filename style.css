@@ -46,4 +46,29 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+header .logo {
+  font-size: 2em;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.5s;
+  transform-origin: right;
+}
+
+.toggle {
+  position: relative;
+  background: url(images/menu.png);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  cursor: pointer;
 }
